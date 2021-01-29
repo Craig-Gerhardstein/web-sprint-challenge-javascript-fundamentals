@@ -83,7 +83,7 @@ const zooAnimals = [
     zooAnimals.map(function(item){
        return lowerCase.push(item.animal_name.toLowerCase());
     });
-    return lowerCase
+    return lowerCase;
   } 
   
   
